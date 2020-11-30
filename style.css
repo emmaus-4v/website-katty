@@ -1,37 +1,59 @@
 /* Basislayout */
 
-html, body {
-    height: 100%;
-    padding: 0;
-    background-color: #EEEEEE;  
-    
-    color: #303030;
-    font: Verdana, Arial, Sans-Serif;
+.paragraafoverdisney {
+    font-family:monospace;
+    float:left;
+   
 }
 
+#blokpersonageralph {
+    border:2px solid rgb(8, 8, 7);
+    background-color:navajowhite;
+    width:40%;
+    overflow-y:auto;
+    float:left;
 
-main {
-    margin: 0 auto;
-    width: 700px;
-    position: relative;
 }
 
+.imginblok {
+    float:right;
 
-article {
-    text-align: justify;
 }
 
-
-header {
-    color: skyblue;
-    text-align: center;
+#blokpersonagevenellope {
+    border:2px solid rgb(8, 8, 7);
+    background-color:rgb(221, 163, 226);
+    width:40%;
+    overflow-y:auto;
+    float:right;
+    clear:both;
 }
+    #ralph {
+        float:right;
+        width:59%;
+    }
+
+    #venellope {
+        float:left;
+        width:59%;
+    }
 
 
-footer {
-    text-align: center;
-    padding-bottom: 10px;
-}
+    .personage {
+        clear:both;
+    }
+
+    .achtergrondwreckitralph {
+        clear:both;
+    }
+
+
+
+  
+
+
+
+
 
 
 /* specifieke stijlen */
@@ -83,6 +105,7 @@ nav li a:hover {
 nav li a.active {
     background-color: skyblue;
 }
+
 
 
 
