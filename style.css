@@ -28,12 +28,12 @@
     float:right;
     clear:both;
 }
-    #ralph {
+    .tekstverhaalrechts {
         float:right;
         width:59%;
     }
 
-    #venellope {
+    .tekstverhaallinks {
         float:left;
         width:59%;
     }
@@ -46,6 +46,49 @@
     .achtergrondwreckitralph {
         clear:both;
     }
+
+    #blokpersonagemike {
+    border:2px solid rgb(8, 8, 7);
+    background-color:;
+    width:40%;
+    overflow-y:auto;
+    float:left;
+
+}
+
+    #blokpersonagejames {
+    border:2px solid rgb(8, 8, 7);
+    background-color:;
+    width:40%;
+    overflow-y:auto;
+    float:right;
+    clear:both;
+
+}
+
+#blokpersonagealice {
+    border:2px solid rgb(8, 8, 7);
+    background-color:;
+    width:40%;
+    overflow-y:auto;
+    float:left;
+
+}
+
+#blokpersonagemadhatter {
+     border:2px solid rgb(8, 8, 7);
+    background-color:;
+    width:40%;
+    overflow-y:auto;
+    float:right;
+    clear:both;
+}
+
+.paragraafwreckitralph {
+    background-color:pink;
+}
+
+
 
 
 
