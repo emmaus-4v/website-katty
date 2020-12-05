@@ -16,7 +16,9 @@
 }
 
 .imginblok {
+  
     float:right;
+    padding:6px;
 
 }
 
@@ -36,6 +38,7 @@
     .tekstverhaallinks {
         float:left;
         width:59%;
+
     }
 
 
@@ -43,9 +46,6 @@
         clear:both;
     }
 
-    .achtergrondwreckitralph {
-        clear:both;
-    }
 
     #blokpersonagemike {
     border:2px solid rgb(8, 8, 7);
@@ -85,10 +85,20 @@
 }
 
 .paragraafwreckitralph {
-    background-color:pink;
+    background-color:grey;
+    clear:both;
 }
 
+.anderepersonages {
+    background-color:rgb(130,8,200);
+    clear:both;
+    width:30%;
+    border:2px solid rgb(8, 8, 7);
+}
 
+footer {
+    clear:both;
+}
 
 
 
