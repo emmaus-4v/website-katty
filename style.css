@@ -91,13 +91,42 @@
 
 .anderepersonages {
     background-color:rgb(130,8,200);
-    clear:both;
+    float:left;
     width:30%;
     border:2px solid rgb(8, 8, 7);
 }
 
 footer {
     clear:both;
+}
+
+#fotop1 {
+    float:right;
+    padding:6px;
+}
+
+#fotop2 {
+    float:left;
+    padding:6px;
+}
+
+#fotop3 {
+    float:right;
+    padding:6px;
+}
+
+.tekstverhaalrechts2 {
+    float:right;
+    width:68%;
+}
+
+.wiranderepersonages {
+    padding:4px;
+}
+
+.verhaalcenter {
+    clear:both;
+    padding-top:10px;
 }
 
 
