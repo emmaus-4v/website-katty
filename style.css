@@ -1,9 +1,13 @@
 /* Basislayout */
 
-.paragraafoverdisney {
-    font-family:monospace;
-    float:left;
-   
+.paragraafhoofdp {
+    border:2px solid rgb(8, 8, 7);
+    width:210px;
+    height:145px;
+}
+
+.fotohoofdp {
+    padding:1px;
 }
 
 #blokpersonageralph {
@@ -18,7 +22,7 @@
 .imginblok {
   
     float:right;
-    padding:6px;
+    padding:8px;
 
 }
 
@@ -76,12 +80,26 @@
 }
 
 #blokpersonagemadhatter {
-     border:2px solid rgb(8, 8, 7);
+    border:2px solid rgb(8, 8, 7);
     background-color:rgb(77, 77, 255);
     width:40%;
     overflow-y:auto;
     float:right;
     clear:both;
+}
+
+#blokpersonageredqueen {
+    border:2px solid rgb(8, 8, 7);
+    width:40%;
+    overflow-y:auto;
+    float:right;
+}
+
+#blokpersonagewhitequeen {
+    border:2px solid rgb(8, 8, 7);
+    width:40%;
+    float:right;
+    overflow-y:auto;
 }
 
 .paragraafwreckitralph {
@@ -90,10 +108,14 @@
 }
 
 .anderepersonages {
-    background-color:rgb(130,8,200);
     float:left;
     width:30%;
     border:2px solid rgb(8, 8, 7);
+}
+
+.aiw {
+   border:white;
+   background-color:rgb(3, 94, 252)
 }
 
 footer {
@@ -122,6 +144,10 @@ footer {
 
 .wiranderepersonages {
     padding:4px;
+}
+
+.aiwanderepersonages {
+    border:dotted;
 }
 
 .verhaalcenter {
