@@ -1,13 +1,21 @@
 /* Basislayout */
 
-.paragraafhoofdp {
-    border:2px solid rgb(8, 8, 7);
-    width:210px;
-    height:145px;
+.paragraafhoofdp1 {
+    font-size:20px;
+}
+
+.paragraafhoofdp2 {
+    font-size:17px;
 }
 
 .fotohoofdp {
     padding:1px;
+}
+
+.internallinks {
+    border:2px solid rgb(8, 8, 7);
+    width:35%;
+    clear:both;
 }
 
 #blokpersonageralph {
@@ -102,6 +110,13 @@
     overflow-y:auto;
 }
 
+#blokpersonagehardscrabble {
+    border:2px solid rgb(8, 8, 7);
+    width:40%;
+    overflow-y:auto;
+    float:right;
+}
+
 .paragraafwreckitralph {
     background-color:grey;
     clear:both;
@@ -115,7 +130,17 @@
 
 .aiw {
    border:white;
-   background-color:rgb(3, 94, 252)
+   background-color:rgb(3, 94, 252);
+}
+
+.mu {
+    border:white;
+    background-color:greenyellow;
+}
+
+#theend {
+    text-align:center;
+    clear:both;
 }
 
 footer {
@@ -146,9 +171,11 @@ footer {
     padding:4px;
 }
 
-.aiwanderepersonages {
+.aiwmuanderepersonages {
     border:dotted;
 }
+
+
 
 .verhaalcenter {
     clear:both;
