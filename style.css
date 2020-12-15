@@ -1,5 +1,6 @@
 /* Basislayout */
 
+/* Achtergrond */
 
 #bodywir{
     background-color:pink;
@@ -9,38 +10,25 @@
   background-color:rgba(0, 128, 255, 0.699)
 }
 
+/*        */
+
 .honerablementions {
     text-align:center;
     background-color:grey;
-}
-
-.phonerablementions
-{
-    width:33%;
-    float:right;
-    background-color:grey;
-    height:390px;
-    margin:2px;
-}
-
-.paragraafhoofdp1 {
-    font-size:20px;
-}
-
-.paragraafhoofdp2 {
-    font-size:17px;
 }
 
 .fotohoofdp {
     padding:1px;
 }
 
-.internallinks {
+.intervallinks {
     border:2px solid rgb(8, 8, 7);
     width:35%;
     clear:both;
     background-color:white;
 }
+
+/* Personages */
 
 #blokpersonageralph {
     border:2px solid rgb(8, 8, 7);
@@ -48,13 +36,8 @@
     width:40%;
     overflow-y:auto;
     float:left;
-
-}
-
-.imginblok {
-  
-    float:right;
-    padding:8px;
+    position:relative;
+    animation: slide 1s;
 
 }
 
@@ -65,18 +48,9 @@
     overflow-y:auto;
     float:right;
     clear:both;
+    position:relative;
+    animation: slide 2s;
 }
-    .tekstverhaalrechts {
-        float:right;
-        width:59%;
-    }
-
-    .tekstverhaallinks {
-        float:left;
-        width:59%;
-
-    }
-
 
     .personage {
         clear:both;
@@ -143,6 +117,44 @@
     float:right;
 }
 
+.anderepersonages {
+    float:left;
+    width:30%;
+    border:2px solid rgb(8, 8, 7);
+    background-color:rgb(180, 129, 206);
+    position:relative;
+    animation: slide 3s;
+}
+
+#aiw {
+   border:white;
+   background-color:rgb(3, 94, 252);
+}
+
+#mu {
+    border:white;
+    background-color:greenyellow;
+}
+
+.wiranderepersonages {
+    padding:4px;
+}
+
+.aiwmuanderepersonages {
+    border:dotted;
+}
+
+/* paragrafen */
+
+
+.paragraafhoofdp1 {
+    font-size:20px;
+}
+
+.paragraafhoofdp2 {
+    font-size:17px;
+}
+
 .paragraafwreckitralph {
     background-color:rgb(247, 230, 255);
     clear:both;
@@ -152,31 +164,48 @@
     background-color:;
 }
 
-.anderepersonages {
-    float:left;
-    width:30%;
-    border:2px solid rgb(8, 8, 7);
-    background-color:rgb(180, 129, 206);
+.tekstverhaalrechts2 {
+    float:right;
+    width:68%;
 }
 
-.aiw {
-   border:white;
-   background-color:rgb(3, 94, 252);
+.tekstverhaalrechts {
+        float:right;
+        width:59%;
+    }
+
+.tekstverhaallinks {
+        float:left;
+        width:59%;
+
+    }
+
+.verhaalcenter {
+    clear:both;
+    padding-top:10px;
 }
 
-.mu {
-    border:white;
-    background-color:greenyellow;
-}
 
 #theend {
     text-align:center;
     clear:both;
 }
 
+
+.phonorablementions
+{
+    width:22%;
+    float:right;
+    background-color:grey;
+    height:390px;
+    margin:2px;
+}
+
 footer {
     clear:both;
 }
+
+/* afbeeldingen */
 
 #fotop1 {
     float:right;
@@ -193,36 +222,18 @@ footer {
     padding:6px;
 }
 
-.tekstverhaalrechts2 {
+.imginblok {
+  
     float:right;
-    width:68%;
+    padding:8px;
+
 }
 
-.wiranderepersonages {
-    padding:4px;
+@keyframes slide {
+    0% {left:-900%;}
+    100%{left:0px;}
 }
 
-.aiwmuanderepersonages {
-    border:dotted;
-}
-
-
-
-.verhaalcenter {
-    clear:both;
-    padding-top:10px;
-}
-
-
-.fade-in {
-     animation: fade-in 3s ;
-}
-
-@keyframes fade-in {
-  from {
-      opacity:0;
-      transition: opacity 250ms ease-in;
-}
 
 main {
     max-width: 900px;
