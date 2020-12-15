@@ -3,11 +3,15 @@
 /* Achtergrond */
 
 #bodywir{
-    background-color:pink;
+ background-color:pink;
 }
 
 #bodyaiw {
-  background-color:rgba(0, 128, 255, 0.699)
+  background-color:rgb(0, 128, 255, 0.699);
+}
+
+#bodyhm {
+   font-family:century;
 }
 
 /*        */
@@ -199,6 +203,7 @@
     background-color:grey;
     height:390px;
     margin:2px;
+    padding:5px;
 }
 
 footer {
