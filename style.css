@@ -10,16 +10,11 @@
   background-color:rgb(0, 128, 255, 0.699);
 }
 
-#bodyhm {
-   font-family:century;
+#bodymu {
+   background-color:rgb(204, 255, 204);
 }
 
 /*        */
-
-.honerablementions {
-    text-align:center;
-    background-color:grey;
-}
 
 .fotohoofdp {
     padding:1px;
@@ -63,20 +58,24 @@
 
     #blokpersonagemike {
     border:2px solid rgb(8, 8, 7);
-    background-color:;
+    background-color:rgb(153, 255, 153);
     width:40%;
     overflow-y:auto;
     float:left;
+    position:relative;
+    animation:slide 1s;
 
 }
 
     #blokpersonagejames {
     border:2px solid rgb(8, 8, 7);
-    background-color:;
+    background-color:rgb(128, 255, 128);
     width:40%;
     overflow-y:auto;
     float:right;
     clear:both;
+    position:relative;
+    animation:slide 2s;
 
 }
 
@@ -86,6 +85,8 @@
     width:40%;
     overflow-y:auto;
     float:left;
+    position:relative;
+    animation:slide 1s;
 
 }
 
@@ -96,6 +97,8 @@
     overflow-y:auto;
     float:right;
     clear:both;
+    position:relative;
+    animation:slide 2s;
 }
 
 #blokpersonageredqueen {
@@ -104,6 +107,8 @@
     overflow-y:auto;
     float:right;
     background-color:rgb(77, 77, 255);
+    position:relative;
+    animation:slide 3s;
 }
 
 #blokpersonagewhitequeen {
@@ -112,13 +117,17 @@
     float:right;
     overflow-y:auto;
     background-color:rgb(77, 77, 255);
+    position:relative;
+    animation:slide 3s;
 }
 
 #blokpersonagehardscrabble {
     border:2px solid rgb(8, 8, 7);
     width:40%;
+    background-color:rgb(77, 255, 77);
     overflow-y:auto;
     float:right;
+    animation:slide 3s;
 }
 
 .anderepersonages {
@@ -127,7 +136,7 @@
     border:2px solid rgb(8, 8, 7);
     background-color:rgb(180, 129, 206);
     position:relative;
-    animation: slide 3s;
+    animation: slide 3.5s;
 }
 
 #aiw {
@@ -137,7 +146,7 @@
 
 #mu {
     border:white;
-    background-color:greenyellow;
+    background-color:rgb(102, 255, 102);
 }
 
 .wiranderepersonages {
@@ -165,7 +174,11 @@
 }
 
 .paragraafaliceinwonderland {
-    background-color:;
+    background-color:rgb(179, 215, 255);
+}
+
+.paragraafmonstersuniversity {
+    background-color:rgb(179, 255, 179);
 }
 
 .tekstverhaalrechts2 {
@@ -193,21 +206,28 @@
 #theend {
     text-align:center;
     clear:both;
+    font-weight:bold;
 }
 
+.honerablementions {
+    text-align:center;
+    background-color:rgb(255, 179, 179);
+}
 
 .phonorablementions
 {
     width:22%;
     float:right;
-    background-color:grey;
+    background-color: rgb(255, 204, 204);
     height:390px;
     margin:2px;
     padding:5px;
+    font-size:18px;
 }
 
 footer {
     clear:both;
+    font-family:century;
 }
 
 /* afbeeldingen */
@@ -222,16 +242,15 @@ footer {
     padding:6px;
 }
 
-#fotop3 {
-    float:right;
-    padding:6px;
-}
-
 .imginblok {
   
     float:right;
     padding:8px;
 
+}
+
+.fotohm {
+    border:2px solid rgb(255, 153, 153);
 }
 
 @keyframes slide {
