@@ -3,7 +3,7 @@
 /* Achtergrond */
 
 #bodywir{
- background-color:pink;
+ background-color:rgb(255, 230, 255);
 }
 
 #bodyaiw {
@@ -20,6 +20,9 @@
         clear:both;
     }
 
+.naampersonage {
+    text-align:center;
+}
 
 #blokpersonageralph {
     border:2px solid rgb(8, 8, 7);
@@ -146,20 +149,20 @@
     border:dotted;
 }
 
-/* tekst */
+/* tekst/paragrafen */
 
 
-.paragraafhoofdp1 {
+.inledinghoofdp {
     font-size:20px;
 }
 
-.paragraafhoofdp2 {
+.paragraafhoofdp {
     font-size:17px;
     background-color: rgb(210, 210, 224);
 }
 
 .paragraafwreckitralph {
-    background-color:rgb(247, 230, 255);
+    background-color:rgb(255, 204, 255);
     clear:both;
 }
 
@@ -201,14 +204,14 @@
 
 .honerablementions {
     text-align:center;
-    background-color:rgb(255, 179, 179);
+    background-color:rgb(210, 210, 224);
 }
 
 .phonorablementions
 {
     width:22%;
     float:right;
-    background-color: rgb(255, 204, 204);
+    background-color: rgb(210, 210, 224);
     height:390px;
     margin:2px;
     padding:5px;
@@ -244,7 +247,7 @@ footer {
 }
 
 .fotohm {
-    border:2px solid rgb(255, 153, 153);
+    border:2px solid rgb(210, 210, 224);
 }
 
 /*Extra*/
