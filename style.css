@@ -14,20 +14,12 @@
    background-color:rgb(204, 255, 204);
 }
 
-/*        */
-
-.fotohoofdp {
-    padding:1px;
-}
-
-.intervallinks {
-    border:2px solid rgb(8, 8, 7);
-    width:35%;
-    clear:both;
-    background-color:white;
-}
-
 /* Personages */
+
+.personage {
+        clear:both;
+    }
+
 
 #blokpersonageralph {
     border:2px solid rgb(8, 8, 7);
@@ -49,34 +41,6 @@
     clear:both;
     position:relative;
     animation: slide 2s;
-}
-
-    .personage {
-        clear:both;
-    }
-
-
-    #blokpersonagemike {
-    border:2px solid rgb(8, 8, 7);
-    background-color:rgb(153, 255, 153);
-    width:40%;
-    overflow-y:auto;
-    float:left;
-    position:relative;
-    animation:slide 1s;
-
-}
-
-    #blokpersonagejames {
-    border:2px solid rgb(8, 8, 7);
-    background-color:rgb(128, 255, 128);
-    width:40%;
-    overflow-y:auto;
-    float:right;
-    clear:both;
-    position:relative;
-    animation:slide 2s;
-
 }
 
 #blokpersonagealice {
@@ -121,12 +85,37 @@
     animation:slide 3s;
 }
 
+   #blokpersonagemike {
+    border:2px solid rgb(8, 8, 7);
+    background-color:rgb(153, 255, 153);
+    width:40%;
+    overflow-y:auto;
+    float:left;
+    position:relative;
+    animation:slide 1s;
+
+}
+
+    #blokpersonagejames {
+    border:2px solid rgb(8, 8, 7);
+    background-color:rgb(128, 255, 128);
+    width:40%;
+    overflow-y:auto;
+    float:right;
+    clear:both;
+    position:relative;
+    animation:slide 2s;
+
+}
+
+
 #blokpersonagehardscrabble {
     border:2px solid rgb(8, 8, 7);
     width:40%;
     background-color:rgb(77, 255, 77);
     overflow-y:auto;
     float:right;
+    position:relative;
     animation:slide 3s;
 }
 
@@ -157,7 +146,7 @@
     border:dotted;
 }
 
-/* paragrafen */
+/* tekst */
 
 
 .paragraafhoofdp1 {
@@ -166,6 +155,7 @@
 
 .paragraafhoofdp2 {
     font-size:17px;
+    background-color: rgb(210, 210, 224);
 }
 
 .paragraafwreckitralph {
@@ -181,15 +171,15 @@
     background-color:rgb(179, 255, 179);
 }
 
-.tekstverhaalrechts2 {
-    float:right;
-    width:68%;
-}
-
 .tekstverhaalrechts {
         float:right;
         width:59%;
     }
+
+.tekstverhaalrechts2 {
+    float:right;
+    width:68%;
+}
 
 .tekstverhaallinks {
         float:left;
@@ -232,6 +222,10 @@ footer {
 
 /* afbeeldingen */
 
+.fotohoofdp {
+    padding:1px;
+}
+
 #fotop1 {
     float:right;
     padding:6px;
@@ -253,11 +247,21 @@ footer {
     border:2px solid rgb(255, 153, 153);
 }
 
+/*Extra*/
+
+.intervallinks {
+    border:2px solid rgb(8, 8, 7);
+    width:35%;
+    clear:both;
+    background-color:white;
+}
+
 @keyframes slide {
     0% {left:-900%;}
     100%{left:0px;}
 }
 
+/*afmetingen pagina*/
 
 main {
     max-width: 900px;
